@@ -1,0 +1,4 @@
+1. No of sampling points
+2. Which model performs better for large data points and small pool size ? 
+3. Sampling frequency
+4. 
