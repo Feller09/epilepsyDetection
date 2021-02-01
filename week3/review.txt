@@ -1,0 +1,10 @@
+first model 
+1.clean and testing 
+2. use the same model and change the activation fuucn 
+3. change the learning rate to 0.01 
+4. reduce the batch size and increase epoch 
+keep shuffle to true
+
+same thing 
+as first and incrase the number of layers 
+keep shuffle to true 

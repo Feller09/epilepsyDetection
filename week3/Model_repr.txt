@@ -1,0 +1,22 @@
+The Model Representation:
+
+The job of this model is to binarily classify the signal as epileptical or not. 
+We have considered the data to be clean and assumed that only class 1 can have epilepsy.
+
+The case for a non-epileptic signal being rise to epilepsy has not been considered in this model.
+
+The model creation: 
+1.First the data is visualized for all the 5 classes on the plotted graph.
+
+2. Then using a relu function and dividing the dataset into 11 parts of 
+each 256,128,128,64,32,32,32,16,16,8,5 each size .
+The Dense function is a function call in keras to just create the regular densely connected NN layer.The activation function used here was relu , as it is the most genral function ... other functions can also be used to improve the performance.
+(Later as i read , I should have used sigmoid with softmax as the give a better prediction value for categorical data forms.)
+
+
+3. For the model the optimizer was used as adam and the loss function was binary crossentropy.
+
+4. Trainied the data for 50 epochs and each batch size of 15 and random shuffling set to False , so they are inputted in the neural network as same as the data set they are eneterd into data.csv . 
+
+ 
+
