@@ -1,2 +1,0 @@
-More updates to the experiment used :
-1. Using BiLSTM rather than LSTM to increase accuracy as BiLSTM knows about the future events and how to updadte the result without repeated computation for each training set.
