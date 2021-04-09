@@ -1,7 +1,4 @@
-## Manipal Research (2021)
+## epliepsy Detection 
 
-My manipal research project done under Ms Pooja Prabhu on using a deep learning framework for "Identification of Epileptic Abnormalities" .
-
-This repo contains the source code of the implemntaion ,some sample codes and the papers that have been used .
-
+Detection of epilepsy on patients using non-invasive techniques and making a predictive model on the data using Deep Learning.
 
